@@ -8,10 +8,10 @@
                     @foreach ($comics as $comic)
                         <div class="comic-box d-flex flex-column ms-2 mt-2">
                             <div class="comic">
-                                <img src="{{$comic['thumb']}}">
+                                <img src="{{ $comic['thumb'] }}">
                             </div>
                             <div class="mt-3">
-                                <span class="text-white text-uppercase small">{{$comic['title']}}</span>
+                                <span class="text-white text-uppercase small">{{ $comic['title'] }}</span>
                             </div>
                         </div>
                     @endforeach
@@ -19,17 +19,20 @@
             </div>
         </div>
     </section>
+    <section id="shop-icons">
+        <div class="icon-box d-flex align-items-center">
+            <div class="container py-2 px-0">
+                <ul class="d-flex justify-content-around my-0 py-5">
+                    @foreach ($mainlinks as $link)
+                        <li class="d-flex align-items-center  ">
+                            <div class="d-flex justify-content-center shopicon-box">
+                                <img src="{{$link['icon']}}" alt="">
+                            </div>
+                            <span class="text-uppercase text-white ms-3 ">{{ $link['text']}}</span>
+                        </li>
+                    @endforeach
+                </ul>
+            </div>
+        </div>
+    </section>
 @endsection
-
-
-
-
-{{--
-
-<div class="comic-box d-flex flex-column ms-2 mt-2">
-    <div class="comic">
-        <img :src="">
-    </div>
-    <div class="mt-3">
-        <span class="text-white text-uppercase small"></span>
-    </div> --}}

@@ -1,7 +1,7 @@
 <?php
 return [
 
-    [
+'comics' => [[
 
         "title" => "Action Comics #1000: The Deluxe Edition",
         "description" => "The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman’s new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!",
@@ -212,5 +212,253 @@ return [
         "writers" => [
             "Joëlle Jones"
         ],
+    ]],
+
+
+    'mainlinks' => [
+        [   "icon" => "/img/buy-comics-digital-comics.png",
+            "text"=> "digital comics",
+
+        ],
+        [   "icon" => "/img/buy-comics-merchandise.png",
+            "text"=> "dc merchandise",
+
+        ],
+        [   "icon" => "/img/buy-comics-subscriptions.png",
+            "text"=> "subscription",
+
+        ],
+        [   "icon" => "/img/buy-comics-shop-locator.png",
+            "text"=> "comic shop locator",
+
+        ],
+        [   "icon" => "/img/buy-dc-power-visa.svg",
+            "text"=> "dc power visa",
+
+        ],
+
+
     ],
+
+
+    'footerlinks' => [
+        [
+            'title' => 'DC Comics',
+            'links' => [
+                [
+                    'text' => "Characters",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Comics",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Movies",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "TV",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Games",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Videos",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "News",
+                    'url' => "#",
+                ]
+
+            ]
+        ],
+        [
+            'title' => 'Shop',
+            'links' => [
+                [
+                    'text' => "Shop DC",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Shop DC Collectibles",
+                    'url' => "#",
+                ]
+            ]
+        ],
+        [
+            'title' => 'DC',
+            'links' => [
+                [
+                    'text' => "Terms of Use",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Privacy policy(New)",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Ad choices",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Advertising",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "jobs",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Subscriptions",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "TaleNT Workshop",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "CPSC Certificates",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Ratings",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Shop Help",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "Contact Us",
+                    'url' => "#",
+                ],
+
+
+            ]
+        ],
+        [
+            'title' => 'sites',
+            'links' => [
+                [
+                    'text' => "DC",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "MAD Magazine",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "DC Kids",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "DC Universe",
+                    'url' => "#",
+                ],
+                [
+                    'text' => "DC Power Visa",
+                    'url' => "#",
+                ],
+            ]
+        ],
+
+
+
+
+    ],
+
+    'socials' => [
+        [
+            'img' => "/img/footer-facebook.png",
+            'url' => "#",
+            'text' => 'Facebook'
+
+        ],
+        [
+            'img' => "/img/footer-twitter.png",
+            'url' => "#",
+            'text' => 'Twitter'
+
+        ],
+        [
+            'img' => "/img/footer-youtube.png",
+            'url' => "#",
+            'text' => 'YouTube'
+
+        ],
+        [
+            'img' => "/img/footer-pinterest.png",
+            'url' => "#",
+            'text' => 'Pinterest'
+
+        ],
+        [
+            'img' => "/img/footer-periscope.png",
+            'url' => "#",
+            'text' => 'Periscope'
+
+        ],
+
+    ],
+
+
+    'headerLinks' => [
+        [
+            'text' => "characters",
+            'url' => "#",
+            'current' => false,
+        ],
+        [
+            'text' => "comics",
+            'url' => "#",
+            'current' => true,
+        ],
+        [
+            'text' => "movies",
+            'url' => "#",
+            'current' => false,
+        ],
+        [
+            'text' => "tv",
+            'url' => "#",
+            'current' => false,
+        ],
+        [
+            'text' => "games",
+            'url' => "#",
+            'current' => false,
+        ],
+        [
+            'text' => "collectibles",
+            'url' => "#",
+            'current' => false,
+        ],
+        [
+            'text' => "videos",
+            'url' => "#",
+            'current' => false,
+        ],
+        [
+            'text' => "fans",
+            'url' => "#",
+            'current' => false,
+        ],
+        [
+            'text' => "news",
+            'url' => "#",
+            'current' => false,
+        ],
+        [
+            'text' => "shop",
+            'url' => "#",
+            'current' => false,
+        ],
+    ],
+
 ];
+
+
